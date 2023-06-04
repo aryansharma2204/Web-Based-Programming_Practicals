@@ -3,8 +3,8 @@
 // File Manipulation
 
 // Copy a file
-$sourceFile = 'source.txt';
-$destinationFile = 'destination.txt';
+$sourceFile = '18.txt';
+$destinationFile = '18a.txt';
 if (copy($sourceFile, $destinationFile)) {
     echo "File copied successfully.";
 } else {
@@ -14,8 +14,8 @@ if (copy($sourceFile, $destinationFile)) {
 echo "<br>";
 
 // Rename a file
-$oldName = 'old.txt';
-$newName = 'new.txt';
+$oldName = '18aaa.txt';
+$newName = '18aa.txt';
 if (rename($oldName, $newName)) {
     echo "File renamed successfully.";
 } else {
@@ -25,7 +25,7 @@ if (rename($oldName, $newName)) {
 echo "<br>";
 
 // Delete a file
-$fileToDelete = 'file_to_delete.txt';
+$fileToDelete = '18aaaa.txt';
 if (unlink($fileToDelete)) {
     echo "File deleted successfully.";
 } else {
@@ -37,7 +37,7 @@ echo "<br>";
 // Directory Manipulation
 
 // Create a directory
-$directory = 'new_directory';
+$directory = 'new_directory1';
 if (mkdir($directory)) {
     echo "Directory created successfully.";
 } else {
@@ -58,7 +58,7 @@ if (rename($oldDirectory, $newDirectory)) {
 echo "<br>";
 
 // Delete a directory
-$directoryToDelete = 'directory_to_delete';
+$directoryToDelete = 'aryan';
 if (rmdir($directoryToDelete)) {
     echo "Directory deleted successfully.";
 } else {
