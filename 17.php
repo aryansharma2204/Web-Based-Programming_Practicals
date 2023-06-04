@@ -1,6 +1,6 @@
 <?php
 
-$file = '17.txt'; // Specify the file name
+$file = '18.txt'; // Specify the file name
 
 // Open the file in write mode
 $handle = fopen($file, 'w');
