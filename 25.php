@@ -1,15 +1,15 @@
 <?php
 $servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_database_name";
+$username = "root";
+$password = "";
+$dbname = "aryan2004";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Check if the table exists
-    $tableName = "users";
+    $tableName = "users1";
     $checkTableQuery = "SHOW TABLES LIKE '$tableName'";
     $tableExists = $conn->query($checkTableQuery)->rowCount() > 0;
 
