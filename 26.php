@@ -1,9 +1,9 @@
 <?php
 $servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_database_name";
-$tableName = "users"; // Replace with your table name
+$username = "root";
+$password = "";
+$dbname = "aryan2004";
+$tableName = "users1"; // Replace with your table name
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
